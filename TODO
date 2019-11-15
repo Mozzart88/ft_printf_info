@@ -1,0 +1,57 @@
+General:
+	☐ function name ft_printf
+	☐ Check Norm
+	☐ Check errors no segfauls and same exits
+	☐ Makefile must compile libftprintf.a
+	☐ author file in root of progect
+	Allowed functions:
+		☐ write
+		☐ malloc
+		☐ free
+		☐ exit
+		☐ functions of man 3 stdarg
+Mandatory:
+	man 3 printf
+	man 3 stdarg
+	☐ Recode libc's printf function
+	☐ Function must be prototyped similarly to printf
+	☐ Don't do the buffer management in function
+	Manage conversions:
+		☐ csp
+		☐ diouxX with flags:
+			☐ hh
+			☐ h
+			☐ l
+			☐ ll
+		☐ f with flags:
+			☐ l
+			☐ L
+	☐ Manage %%
+	Manage flags:
+		☐ #
+		☐ 0
+		☐ -
+		☐ +
+		☐ space
+	☐ Manage the minimum field width
+	☐ Manage presion
+Bonus:
+	☐ May add own bonuses
+	More detailed converdions:
+		L flag must works with both
+		☐ e
+		☐ g
+	More detailed flag management:
+		☐ *
+		☐ $
+		☐ '
+	Non-existing flags management:
+		☐ %b to print binary
+		☐ %r to print string of non-printable characters
+		☐ %k to print in any ordinary ISO format etc
+	☐ Management of alter tools for colors, fd or other stuf like that
+	printf("Le fichier{cyan}%s{eoc} contient : {red}%s{eoc}", filename, str);
+Submission:
+	☐ As usual
+My notes:
+	☐ Make validation on float argument for %p flag
